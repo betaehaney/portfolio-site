@@ -1,0 +1,100 @@
+/*
+Colors used:
+
+Primary Colors
+Dark Gray: #3a3535;
+Gray: #cacacd;
+Beige: #f6f7f4;
+
+Secondary Colors
+Light Blue: #d5deea;
+Blue: #2684d5;
+Pastel Pink: #f7eaeb;
+Pink: #eba6b5;
+*/
+
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: black;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'PT Serif', serif;
+    line-height: 1.4;
+}
+h1 {
+    font-size: 2.75em;
+    font-weight: 700;
+}
+h2 {
+    font-size: 2.25em;
+    font-weight: 700;
+}
+h3 {
+    font-size: 1.75em;
+    font-weight: 400;
+}
+h4 {
+    font-size: 1.35em;
+    font-weight: 400;
+}
+img {
+    width: 100%;
+  }
+a {
+    color: #2684d5;
+    text-decoration: none; /* No underlining */
+}
+a:visited { /* visited link */
+    color: #2684d5;
+}
+a:hover,
+a:focus {
+    color: #eba6b5;
+    text-decoration: underline; /* Underlining when hovering over a link */
+}
+a:active { /* selected link */
+    color: #d5deea;
+}
+.button {
+    display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+    background-color: #eba6b5;
+    color: white; /* needed to override the default link color */
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #c2617f; /* width of the border, type, color */
+    transition: 0.2s opacity;
+  }
+.button:visited {
+    color: white;
+}
+.button:hover,
+.button:focus {
+    opacity: .8; /* Reduces the opacity of the button to 80% */
+    color: white;
+    text-decoration: none;
+}
+.button:active {
+    color: #c2617f;
+}
+.button.contact {
+    background-color: transparent;
+    color: #eba6b5;
+    text-transform: uppercase;
+    border: 2px solid #eba6b5;
+    border-bottom: 2px solid #c2617f;
+  }
+.button.contact:hover,
+.button.contact:focus {
+    background-color: #eba6b5;
+    color: white;
+}
+.button.contact:active {
+    border-color: #c2617f;
+    color: white;
+  }
