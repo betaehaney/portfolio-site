@@ -144,7 +144,7 @@ a:active { /* selected link */
     max-width: 250px;
 }
 
-nav > ul, {
+nav > ul {
     list-style-type: none;
     padding: 0;
 }
