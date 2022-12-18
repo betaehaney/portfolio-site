@@ -170,21 +170,19 @@ nav > ul > li > a {
     text-align: center;
 }
 
-footer > ul {
+footer ul {
     list-style-type: none;
     padding: 0;
 }
 
-footer > ul > li {
+footer ul li {
     display: inline-block;
 }
 
-footer > ul > li > a {
+footer ul li a {
     padding: 0 20px;
 }
 
 #project, #home, #about {
     text-align: center;
 }
-
-
