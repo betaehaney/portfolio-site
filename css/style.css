@@ -172,6 +172,7 @@ a:active {
 nav>ul {
 	list-style-type: none;
 	padding: 0;
+	margin: 0;
 }
 
 nav>ul>li {
@@ -298,6 +299,14 @@ footer ul li a {
 
     h2 {
         text-align: center;
+    }
+
+	.col-lg-5 {
+		width: 40%
+	}
+
+	.col-lg-7 {
+        width: 60%;
     }
 }
 
