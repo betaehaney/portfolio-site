@@ -12,20 +12,26 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+      <script defer src="files/js/solid.js"></script>
+      <script defer src="files/js/brands.js"></script>
+      <script defer src="files/js/fontawesome.js"></script>
   </head>
 
     <body>
         <header id="top">
-            <div class="container">
-              <a href="#contact">eHaney Web Designer</a>
+          <div class="container">
+            <div class="navtoggle" id="myNavtoggle">
+              <a href="#contact" class="logo">eHaney UX/UI Design</a>
                 <nav>
                   <ul class="navigation">
                     <li><a href="index.html">Work</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
                   </ul>
                 </nav>
             </div>
+          </div>
         </header>
 
         <main id="about">
@@ -111,6 +117,9 @@
             <p>Copyright Emma Haney 2022</p>               
           </div>
         </footer>
-    <script src="js/scripts.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+        crossorigin="anonymous"></script>
+      <script src="js/scripts.js"></script>
   </body>
 </html>
