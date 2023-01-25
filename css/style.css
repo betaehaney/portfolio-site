@@ -51,22 +51,22 @@ h4 {
 }
 
 h1 {
-	font-size: 2.25em;
+	font-size: 1.8em;
 	font-weight: 700;
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: 700;
 }
 
 h3 {
-	font-size: 1.75em;
+	font-size: 1.3em;
 	font-weight: 400;
 }
 
 h4 {
-	font-size: 1.35em;
+	font-size: 1.2em;
 	font-weight: 400;
 }
 
@@ -172,7 +172,7 @@ a:active {
 }
 
 #welcome {
-	width: 400px;
+	width: 250px;
 	margin: 30px;
 }
 
@@ -312,6 +312,26 @@ footer ul li a {
         margin-top: 0px;
     }
 
+	h1 {
+		font-size: 2.3em;
+		font-weight: 700;
+	}
+	
+	h2 {
+		font-size: 2em;
+		font-weight: 700;
+	}
+	
+	h3 {
+		font-size: 1.5em;
+		font-weight: 400;
+	}
+	
+	h4 {
+		font-size: 1.35em;
+		font-weight: 400;
+	}
+
     #hero span {
         display: block;
     }
@@ -335,6 +355,11 @@ footer ul li a {
     #home {
 	    text-align: unset;
     }
+
+	#welcome {
+		width: 400px;
+		margin: 30px;
+	}
 }
 
 @media only screen and (min-width: 1024px) {
