@@ -1,44 +1,45 @@
-/*
-Colors used:
-
-Light Blue: #d5deea;
-Blue: #0077a2;
-Pastel Pink: #f7eaeb;
-Pink: #eba6b5;
-*/
 
 * {
 	box-sizing: border-box;
 }
 
 body {
-	background-color: white;
+	background-color: rgb(245, 245, 245);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1.6;
-	color: black;
+	color: #121212;
 }
 
 header {
-	background-color: rgb(244, 238, 240);
+	background-color: rgb(245, 245, 245);
 	padding: 10px 0 10px;
-	box-shadow: 0px 0px 14px 0px rgba(75, 32, 104, 0.3);
-	position: relative
+	position: relative;
 }
 
 #hero {
-	text-align: center;
-	background-image: linear-gradient(rgb(244, 238, 240), white);
-	padding: 20px 10px;
+	text-align: left;
+	background-color: rgb(245, 245, 245);
+	padding: 25px 10px;
 	display: inline-block;
 	width: 100%;
+	margin-bottom: 150px;
+	margin-top: 80px;
+}
+
+hr {
+	position:relative;
+	border: none;
+	height: 3px;
+	background: #f10075;
 	margin-bottom: 50px;
 }
 
 footer {
-	background-color: rgb(244, 238, 240);
-	padding: 10px 5px;
+	color: #878787;
+	background-color: #121212;
+	padding: 40px 5px;
 	text-align: center;
 	margin-top: 20px;
 }
@@ -47,28 +48,28 @@ h1,
 h2,
 h3,
 h4 {
-	font-family: 'PT Serif', serif;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 1.4;
 }
 
 h1 {
-	font-size: 1.8em;
-	font-weight: 700;
+	font-size: 2.5em;
+	font-weight: 600;
 }
 
 h2 {
 	font-size: 1.5em;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 h3 {
 	font-size: 1.3em;
-	font-weight: 400;
+	font-weight: 600;
 }
 
 h4 {
 	font-size: 1.2em;
-	font-weight: 400;
+	font-weight: 600;
 }
 
 img {
@@ -76,41 +77,44 @@ img {
 }
 
 a {
-	color: #3600a2;
+	color: #121212;
 	text-decoration: none;
 	/* No underlining */
 }
 
 a:visited {
 	/* visited link */
-	color: #3600a2;
+	color: #121212;
 }
 
 a:hover,
 a:focus {
-	color: #7e0ecf;
-	text-decoration: underline;
-	/* Underlining when hovering over a link */
+	color: #f10075;
 }
 
 a:active {
 	/* selected link */
-	color: #3600a2;
+	color: #121212;
 }
 
 .button {
 	display: inline-block;
 	/* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-	background-color: #3600a2;
+	background-color: #121212;
+	font-family: 'Montserrat', sans-serif;
 	color: white;
+	font-size: 15px;
 	/* needed to override the default link color */
-	font-weight: 400;
+	font-weight: 600;
 	padding: 10px;
-	border-radius: 5px;
-	border-bottom: 2px solid #7e0ecf;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-top: 30px;
+	border-radius: 30px;
 	/* width of the border, type, color */
-    transition: 0.2s opacity;
+    transition: 0.2s;
 }
+
 
 .button:visited {
 	color: white;
@@ -118,32 +122,32 @@ a:active {
 
 .button:hover,
 .button:focus {
-	opacity: .8;
-	/* Reduces the opacity of the button to 80% */
 	color: white;
+	background-color:#f10075;
 	text-decoration: none;
 }
 
 .button:active {
-	color: #7e0ecf;
+	background-color: #d90069;
+	opacity: 1;
 }
 
 .button.contact {
 	background-color: transparent;
-	color: #3600a2;
-	text-transform: uppercase;
-	border: 2px solid #3600a2;
-	border-bottom: 2px solid #7e0ecf;
+	color: #f10075;
+	text-transform: lowercase;
+	border: 2px solid #f10075;
+	border-bottom: 2px solid #e4006e;
 }
 
 .button.contact:hover,
 .button.contact:focus {
-	background-color: #3600a2;
+	background-color: #f10075;
 	color: white;
 }
 
 .button.contact:active {
-	border-color: #7e0ecf;
+	border-color: #f10075;
 	color: white;
 }
 
@@ -154,21 +158,29 @@ a:active {
 }
 
 .row {
-	margin: 25px 0;
+	margin: 25px 0px;
 	/* 25px top and bottom, 0 left and right */
 }
 
 #work .row {
-	padding-bottom: 25px;
-	border-bottom: 2px solid #4a4a4a;
-	border-bottom-style: dotted;
+	margin-bottom: 80px;
+	position: relative;
+    transform: translateY(50px);
+    opacity: 1;
+    transition: 1s all ease;
+}
+
+#work .row:hover {
+	transform: translateY(0);
+	opacity: 1;
 }
 
 #work img {
-	box-shadow: 0px 0px 10px 5px rgba(196, 187, 201, 0.3);
+	box-shadow: -10px 10px 20px 0px rgba(168, 168, 168, 0.3);
 }
 
 #about .skills {
+	text-align: center;
 	list-style-type: none;
 	padding: 0;
 }
@@ -177,9 +189,8 @@ a:active {
 	width: 200px;
 }
 
-#welcome {
-	width: 250px;
-	margin: 30px;
+#viewresume {
+	margin-bottom: 40px;
 }
 
 .casestudy {
@@ -187,7 +198,8 @@ a:active {
 }
 
 .logo {
-	max-width: 125px;
+	max-width: 135px;
+	padding-left: 15px;
 }
 
 nav>ul {
@@ -197,9 +209,10 @@ nav>ul {
 }
 
 nav>ul>li>a {
-	padding: 0 15px;
-	text-transform: uppercase;
-	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 40px;
+	font-weight: 600;
+	font-size: 15px;
 }
 
 .navtoggle li:not(:last-child) {
@@ -216,7 +229,7 @@ nav>ul>li>a {
 .navtoggle.responsive li  {
 	display: block;
 	padding: 10px 0;
-	border-top: 1px solid white;
+	border-top: 1px solid #121212;
 	text-align: right;
 }
   
@@ -255,33 +268,6 @@ footer ul li a {
     width: 100%;
     max-width: 100%;
     height: auto;
-}
-
-@keyframes color-change {
-    from {fill: #edc655;}
-    to {fill: #f76414;}
-}
-
-@keyframes cloud-move {
-    from {transform: translate(0,50px);}
-    to {transform: translate(200px,50px);}
-}
-
-@keyframes cloud-move-reverse {
-    from {transform: translate(446px,48px);}
-    to {transform: translate(100px, 48px);}
-}
-
-.sun {
-    animation: 4s color-change infinite alternate linear;
-}
-
-.cloud-front {
-    animation: 20s cloud-move infinite alternate linear;
-}
-
-.cloud-back {
-    animation: 30s cloud-move-reverse infinite alternate linear;
 }
 
 @media only screen and (min-width: 640px) {
@@ -348,7 +334,8 @@ footer ul li a {
 
     [class*="col-"] {
         float: left;
-        padding: 10px;
+		padding: 0;
+        padding-right: 20px;
     }
 
     .row::after {
@@ -361,30 +348,47 @@ footer ul li a {
     #home {
 	    text-align: unset;
     }
-
-	#welcome {
-		width: 400px;
-		margin: 30px;
-	}
 }
 
 @media only screen and (min-width: 1024px) {
-    .container {
+    #hero .container {
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
+		margin-bottom: 40px;
     }
+
+	#hero p {
+		font-size: 1.3em;
+	}
+	
+	#hero h1 {
+		font-size: 4.5em;
+	}
+
+	#about {
+		margin: 60px 220px;
+	}
+
+	.container {
+		padding: 0 0px;
+	}
+
+	#work .row {
+		margin-bottom: 80px;
+		margin-right: 60px;
+	}
 
     h2 {
         text-align: center;
     }
 
 	.col-lg-5 {
-		width: 40%
+		width: 30%
 	}
 
 	.col-lg-7 {
-        width: 60%;
+        width: 70%;
     }
 }
 
