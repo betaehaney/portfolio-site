@@ -190,6 +190,10 @@ a:active {
 	max-width: 135px;
 }
 
+#illustrations hr {
+	margin-top: 60px;
+}
+
 nav>ul {
 	list-style-type: none;
 	padding: 0;
