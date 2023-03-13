@@ -34,6 +34,8 @@ hr {
 	height: 3px;
 	background: #f10075;
 	margin-bottom: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 footer {
@@ -244,9 +246,14 @@ footer ul li a {
 	padding: 0 20px;
 }
 
+main {
+	margin: 15px;
+}
+
 #project,
 #home,
-#about {
+#about,
+#illustrations {
 	text-align: center;
 }
 
@@ -320,8 +327,7 @@ footer ul li a {
 
     [class*="col-"] {
         float: left;
-		padding: 0;
-        padding-right: 20px;
+		padding: 10px;
     }
 
     .row::after {
@@ -352,12 +358,16 @@ footer ul li a {
 		font-size: 4.3em;
 	}
 
-	#about {
+	#about, #illustrations {
 		margin: 60px 220px;
 	}
 
 	.container {
 		padding: 0 0px;
+	}
+
+	.row {
+		margin-right: 0;
 	}
 
 	#work .row {
@@ -368,6 +378,10 @@ footer ul li a {
     h2 {
         text-align: center;
     }
+
+	.col-md-3 {
+		width: 33.3%;
+	}
 
 	.col-lg-5 {
 		width: 30%
