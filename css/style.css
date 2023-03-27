@@ -379,6 +379,10 @@ main {
 		margin-right: 60px;
 	}
 
+	#home hr {
+		margin-left: 0;
+	}
+
     h2 {
         text-align: center;
     }
