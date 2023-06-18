@@ -420,6 +420,19 @@ main {
 		transform: translateY(0);
 		opacity: 1;
 	}
+
+	#work2 .row {
+		margin-bottom: 80px;
+		position: relative;
+		transform: translateY(40px);
+		opacity: .5;
+		transition: 1s all ease;
+	}
+	
+	#work2 .row:hover {
+		transform: translateY(0);
+		opacity: 1;
+	}
 }
 
 @media only screen and (min-width: 1440px) {
