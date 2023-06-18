@@ -99,6 +99,10 @@ a:active {
 	color: #121212;
 }
 
+iframe {
+	max-width: 80%;
+}
+
 .button {
 	display: inline-block;
 	/* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
@@ -203,7 +207,7 @@ nav>ul {
 
 nav>ul>li>a {
 	font-family: 'Montserrat', sans-serif;
-	padding: 0 40px;
+	padding: 0 50px;
 	font-weight: 600;
 	font-size: 15px;
 }

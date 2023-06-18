@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="428" height="926" viewBox="0 0 428 926">
+  <defs>
+    <clipPath id="clip-iPhone_13_12_Pro_Max_2">
+      <rect width="428" height="926"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_13_12_Pro_Max_2" data-name="iPhone 13, 12 Pro Max – 2" clip-path="url(#clip-iPhone_13_12_Pro_Max_2)">
+    <rect width="428" height="926" fill="#101010"/>
+    <text id="good_things_come_to_those_who_wait" data-name="good things come
+to those who wait" transform="translate(214 500)" fill="#707070" font-size="18" font-family="FilsonProMedium, Filson Pro" letter-spacing="0.05em"><tspan x="-85.464" y="0">good things come</tspan><tspan x="-85.554" y="25">to those who wait</tspan></text>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="10" cy="10" r="10" transform="translate(62 412)" fill="#fff"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="10" cy="10" r="10" transform="translate(133 412)" fill="#ff6767"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="10" cy="10" r="10" transform="translate(204 412)" fill="#fff46b"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="10" cy="10" r="10" transform="translate(275 412)" fill="#7eff88"/>
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="10" cy="10" r="10" transform="translate(346 412)" fill="#fff"/>
+  </g>
+</svg>
