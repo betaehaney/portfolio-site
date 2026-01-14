@@ -411,9 +411,9 @@ main {
 	#work .row {
 		margin-bottom: 80px;
 		position: relative;
-		transform: translateY(40px);
+		transform: translateY(20px);
 		opacity: .5;
-		transition: 1s all ease;
+		transition: .8s all ease;
 	}
 	
 	#work .row:hover {
@@ -424,9 +424,9 @@ main {
 	#work2 .row {
 		margin-bottom: 80px;
 		position: relative;
-		transform: translateY(40px);
+		transform: translateY(20px);
 		opacity: .5;
-		transition: 1s all ease;
+		transition: .8s all ease;
 	}
 	
 	#work2 .row:hover {
